@@ -1,20 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Reeni is a modern personal portfolio template for designers, developers, content writer, cleaner, programmer, fashion designer, model, Influencer and freelancers. Fully responsive, SEO-friendly, Bootstrap and easy to customize.">
+
+    <!-- ✅ SEO Meta Tags -->
+    <title>Tatenda Marvelous Chimusoro - Expert Software Developer & Freelancer</title>
+    <meta name="description" content="Tatenda Marvelous Chimusoro, an expert software developer skilled in Laravel, React, Flutter, and Python. Specializing in innovative software solutions and elegant code.">
+    <meta name="keywords" content="Tatenda Chimusoro, software developer, Laravel, React, Flutter, Python, freelancer, web development, mobile apps">
+    <meta name="author" content="Tatenda Marvelous Chimusoro">
+    <meta name="robots" content="index, follow">
+
+    <!-- ✅ Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/favicon.svg')}}">
-    <title>Tatenda Marvelous Chimusoro | Freelancer & Developer Portfolio</title>
-    <!-- Bootstrap min css -->
+
+    <!-- ✅ Open Graph (Facebook & LinkedIn) -->
+    <meta property="og:title" content="Tatenda Marvelous Chimusoro - Expert Software Developer & Freelancer">
+    <meta property="og:description" content="Passionate software developer with expertise in Laravel, React, Flutter, and Python. Offering high-quality software solutions.">
+    <meta property="og:image" content="{{asset('assets/images/portfolio-cover.jpg')}}">
+    <meta property="og:url" content="https://tait.easygrab.co.zw/">
+    <meta property="og:type" content="website">
+
+    <!-- ✅ Twitter Card for Better Previews -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tatenda Marvelous Chimusoro - Software Developer & Freelancer">
+    <meta name="twitter:description" content="Expert in Laravel, React, Flutter & Python. Passionate about elegant code and high-quality software solutions.">
+    <meta name="twitter:image" content="{{asset('assets/images/portfolio-cover.jpg')}}">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+
+    <!-- ✅ Preconnect & Prefetch (Performance Boost) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <!-- ✅ Canonical URL (Avoid Duplicate Content Issues) -->
+    <link rel="canonical" href="https://tait.easygrab.co.zw/">
+
+    <!-- ✅ Structured Data (JSON-LD for Rich Snippets) -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Tatenda Marvelous Chimusoro",
+          "url": "https://tait.easygrab.co.zw/",
+          "image": "{{asset('assets/images/profile.jpg')}}",
+      "jobTitle": "Software Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Easygrab"
+      },
+      "sameAs": [
+        "https://github.com/devTatendaMarvelous",
+        "https://www.linkedin.com/in/tatenda-marvelous-chimusoro-639496213/",
+        "https://twitter.com/yourprofile",
+        "https://www.instagram.com/tait_marvelous/",
+        "https://www.facebook.com/tatenda.chimusoro.52"
+      ]
+    }
+    </script>
+
+
+
+
+    <!-- ✅ Stylesheets (Optimized Loading Order) -->
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/fontawesome.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/plugins/swiper.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/plugins/odometer.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/animate.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/bootstrap.min.css')}}">
-    <!-- custom css -->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 </head>
 

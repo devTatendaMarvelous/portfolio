@@ -1,4 +1,4 @@
-FROM php:8.1
+FROM php:8.3
 
 # Update and install required dependencies, including sockets
 RUN apt-get update -y && apt-get install -y \

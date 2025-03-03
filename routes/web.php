@@ -1,6 +1,12 @@
 <?php
 
+use Illuminate\Support\Facades\App as FacadesApp;
+
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Route;
+if(FacadesApp::environment('production')) {
+    URL::forceScheme('https');
+}
 
 Route::get('/', function () {
     return view('welcome');
@@ -8,6 +14,6 @@ Route::get('/', function () {
 
 
 Route::post('/contact', function () {
-    sleep(10);
+    sleep(5);
     return response()->json([],200);
 });

@@ -38,11 +38,11 @@ jobs:
           docker stop  tait || true
           docker rm  tait || true
           docker rmi  tait || true
-          ufw allow 7008
+          ufw allow 9010
 
           # Step 5: Build and run the Docker container
           docker build -t  tait .
-          docker run -d -p 7008:8080 --name=tait --restart=always  tait
+          docker run -d -p 9010:8080 --name=tait --restart=always  tait
 
           # Step 6: Clean up cloned repository
           cd ..
